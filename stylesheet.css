@@ -1,0 +1,528 @@
+/* ------------ imports's ------------ */ 
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Eczar');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Ranga');
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
+/* ------------ Elements's ------------ */ 
+ 
+p {
+  display: flex;
+}
+h1, h2, h3, h4, h5, h6, {
+  display: flex;
+}
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
+}
+
+/* ------------ class's ------------ */ 
+
+
+/* ----- HomePage ---- */ 
+
+
+.test {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+.owner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	text-decoration: underline;
+}
+.about {
+	 background-color: #fdfcf8;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* ----- EventPage ---- */ 
+
+.noEvent, .comeback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+}
+.comeback {
+  text-decoration: underline;
+  display: flex;
+}
+
+.eventTitle {
+  margin-left: 5%;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.eventImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+}
+/* -----ContactPage ----*/
+
+
+/* ----- Footer ---- */ 
+.landingPageFooter {
+  background-color: #c7c7c7;
+ } 
+.socilMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+
+/* ------------ id's ------------ */ 
+
+
+
+/* ----- HomePage ---- */ 
+
+#landingPageBackground {
+	background: url(https://images.unsplash.com/photo-1516149893016-813d9a01d5d3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a88d30411200ab836536196b28554614&auto=format&fit=crop&w=1500&q=80) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -20%;
+
+}
+#landingText {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin-top: -2%;
+  display: flex;
+
+}
+
+#logotext{
+  font-family: 'Indie Flower', cursive;
+  font-size: 1300%;
+  color: #fafafa;
+  display: flex;
+}
+#testATop {
+	background-color: rgba(209,209,209,.5);
+}
+
+#aboutMeTitle{
+
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+  border-bottom: 1px solid black;
+}
+#AboutMeTitleText {
+ font-family: 'Ranga', cursive;
+}
+#aboutImage {
+	margin-left: 5%;
+	max-width: 100%;
+    height: auto;
+}
+#aboutText {
+	margin-left: 50%;
+	margin-right: 10%;
+	margin-top: -37%;
+}
+#landingPageTest{
+  margin-right: 53%;
+  margin-left: 2%;
+  background-color: rgba(232,232,232,.2);
+}
+#landingPageTestQuote {
+  font-family: 'Cookie', cursive;
+  font-size: 150%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#landingPageTestTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Old Standard TT', serif;
+  margin-top: -5%;
+  border-bottom: 1px solid black;
+}
+#landingPageTestOwner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -3.5%;
+  font-family: 'Old Standard TT', serif;
+}
+
+#aboutTextP {
+  font-family: 'Dosis', sans-serif;
+  font-size: 120%;
+}
+
+/* ----- EventPage ---- */ 
+
+#bannerEventPageText {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /*color: #fafafa;*/
+  font-family: 'Indie Flower', cursive;
+}
+#bannerEventPageTextTitle {
+  size: 200%;
+}
+#pastEventsTextTitle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: 'Indie Flower', cursive;
+  size: 200%;
+}
+#keishaIsHeaded {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* ----- ContactPage ---- */ 
+#contactFormTitleText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+#contactForm {
+  margin-right: 25%;
+  margin-left: 25%;
+}
+#textFix {
+  color: white;
+}
+#termsServiceLink {
+  text-decoration: none;
+  color: black;
+}
+
+/* ------------ Test ------------ */ 
+#firstTest {
+  margin-top: -40%;
+}
+#secondTest {
+  margin-top: -40%;
+  margin-left: 75%;
+}
+#thirdTest  {
+  margin-top: -35%;
+}
+#fourthTest {
+margin-left: 75%;
+}
+
+figure.snip1327 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  background-color: rgba(0,0,0,.0);
+}
+figure.snip1327 blockquote {
+  font-family: 'Lora', Arial, sans-serif;
+  margin: 0;
+  padding: 40px 40px 0 90px;
+  font-weight: 500;
+  line-height: 1.6em;
+  font-style: italic;
+}
+figure.snip1327 .author {
+  margin: 20px 0 30px 90px;
+  padding: 3px 0 0 50px;
+  width: 100%;
+  position: relative;
+}
+figure.snip1327 .author img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  position: absolute;
+}
+figure.snip1327 .author h5,
+figure.snip1327 .author span {
+  opacity: 0.8;
+  margin: 0;
+  line-height: 1em;
+}
+figure.snip1327 .author h5 {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+figure.snip1327 .author span {
+  font-size: 0.8em;
+}
+figure.snip1327:before {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 150px;
+  line-height: 1em;
+  color: #212121;
+  font-style: normal;
+  top: -30px;
+  left: 10px;
+}
+
+/*-----Anamtioins---*/
+.ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+  margin-top: -2%;
+  font-family: 'Kalam', cursive;
+  font-size: 450%;
+  color: #fafafa;
+}
+
+/* ----- Footer ---- */
+
+
+
+
+#myFooter  {
+    background-color: #949494;
+    color: white;
+    padding-top: 20px;
+}
+
+#map-container  {
+    height: 240px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#myFooter .row  {
+    margin: 0 85px;
+}
+
+#myFooter .footer-copyright  {
+    background-color: #949494;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .footer-copyright p  {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter .container  {
+    width: auto;
+}
+
+#myFooter ul  {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5  {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a  {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus  {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks  {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 38px;
+}
+
+#myFooter .fa  {
+    font-size: 30px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: white;
+    color: #182c39;
+    border-radius: 51%;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 31px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+#myFooter .fa-facebook:hover  {
+    color: #2b55ff;
+}
+
+#myFooter .fa-facebook:focus  {
+    color: #2b55ff;
+}
+
+#myFooter .fa-google-plus:hover  {
+    color: red;
+}
+
+#myFooter .fa-google-plus:focus  {
+    color: red;
+}
+
+#myFooter .fa-twitter:hover  {
+    color: #00aced;
+}
+
+#myFooter .fa-twitter:focus  {
+    color: #00aced;
+}
+
+
+
+/* ------------ media Q ------------ */ 
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #aboutText{
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 10%;
+        }
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #logotext, #landingText{
+     font-size: 200%;
+     margin-top: -25%;
+        }
+}
+@media only screen and (max-width: 1024px) {
+    /* For ipadpro: */
+    .ml6, .letter {
+     font-size: 200%;
+     margin-top: -25%;
+        }
+}
+@media only screen and (max-width: 1022px) {
+    /* For ipad: */
+    .ml6, .letter {
+     font-size: 175%;
+     margin-top: -25%;
+        }
+}
+@media only screen and (max-width: 765px) {
+    /* For phones: */
+    .ml6, .letter {
+     font-size: 175%;
+     margin-top: -65%;
+        }
+}
+@media only screen and (max-width: 1023px) {
+    /* For mobile phones: */
+    #landingPageTest {
+     margin-left: 2%;
+     margin-right: 2%;
+        }
+}
+@media only screen and (max-width: 1306px) {
+    /* For mobile phones: */
+    #fourthTest, #thirdTest, #secondTest, #firstTest {
+     display: none;
+        }
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: cente
+        r;
+    }
+    #myFooter .row {
+        margin: 0;
+    }
+}
